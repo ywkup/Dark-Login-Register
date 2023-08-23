@@ -1,0 +1,203 @@
+/* Google Fonts'tan "Montserrat" fontunu içe aktarıyoruz */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+
+/* Genel sayfa stilleri */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+/* Ana kutu stilleri */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 15rem;
+}
+
+/* Kayıt ol bölümü */
+.register-wrapper {
+    height: 80vh;
+    width: 55vh;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Giriş yap bölümü */
+.login-wrapper {
+    height: 75vh;
+    width: 55vh;
+    background-color: black;
+    border: 5px solid white;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Giriş yap ve kayıt ol formları */
+.login-form,
+.register-form {
+    max-width: 300px;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* Giriş yap ve kayıt ol başlıkları */
+.login-header,
+.register-header {
+    font-size: 2rem;
+    margin-left: 1.6rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+/* Giriş yap ve kayıt ol metinleri */
+.login-text1,
+.login-text2,
+.register-text1,
+.register-text2,
+.register-text3,
+.register-text4 {
+    margin-top: 10px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
+}
+
+/* Giriş yap ve kayıt ol giriş alanları */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Giriş yap ve kayıt ol butonları */
+.register-button,
+.login-button {
+    margin-top: 2rem;
+}
+
+/* Kayıt ol ve giriş yap butonları */
+#register-btn{
+    padding: 1.1rem 2.6rem;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    border-radius: 1.9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+#register-btn:hover{
+    transform: scale(1.1);
+}
+
+#login-btn {
+    padding: 1.1rem 2.6rem;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    border-radius: 1.9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+#login-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Diğer Buttonlar */
+
+.lregister-button{
+    margin-top: 1.2rem;
+}
+#lregister-btn{
+    padding: 1.1rem 3.2rem;
+    background-color: white;
+    color: black;
+    border: 4px solid white;
+    border-radius: 1.9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+#lregister-btn:hover{
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+.llogin-button{
+    margin-top: 1.2rem;
+}
+#llogin-btn{
+    padding: 1.1rem 2.6rem;
+    background-color: white;
+    color: black;
+    border: 4px solid white;
+    border-radius: 1.9rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    font-family: 'Montserrat', sans-serif;
+}
+#llogin-btn:hover{
+    transform: scale(1.1);
+}
+
+/* Medya sorguları */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+
+}
+
+@media screen and (min-width: 1200px) {
+}
